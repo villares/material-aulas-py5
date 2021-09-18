@@ -14,8 +14,6 @@ parts:
   - file: tutorials/introduction_to_py5bot
   - file: tutorials/rotating_cube
 
-
-
 - caption: Reference
   chapters:
   - file: reference/sketch
