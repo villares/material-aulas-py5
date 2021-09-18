@@ -14,4 +14,6 @@ Recording steps taken so far (unfinished, I might take a wrong turn):
    - installed `ghp-import`
    - created a `gh-pages` branch in this repo
    - tried the `ghp-import -n -p -f _build/html` and **FAILED, because I can no longer auth gh with passwoed**
-**- Reading all over again about GitHub token authentication and some sort of GitHub CLI thing that has "web login"**
+   - **Reading all over again about GitHub token authentication and some sort of GitHub CLI thing that has "web login"**
+      - Maybe [creating-a-personal-access-token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) **Couldn't find out how to use the token after creating it :(**
+      - Maybe https://cli.github.com/manual/gh_auth_login that needs https://github.com/cli/cli#installation
