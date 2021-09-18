@@ -1,22 +1,17 @@
-format: jb-book
 root: index
-
-parts:
-- caption: About
-
-- caption: Getting Started
-  chapters:
+entries:
+- file: _README
+- file: content/about
+  entries:
+  - file: content/community
+  - file: content/help
   - file: content/install
   - file: content/osx_users
-
-- caption: Tutorials
-  chapters:
-  - file: tutorials/introduction_to_py5bot
+  - file: content/py5_design
+  - file: content/py5_internals
+- file: how_tos/import_processing_libraries
+  entries:
+  - file: how_tos/use_a_webcam_with_opencv
+- file: tutorials/introduction_to_py5bot
+  entries:
   - file: tutorials/rotating_cube
-
-- caption: Reference
-  chapters:
-  - file: reference/sketch
-    sections:
-    - glob: reference/sketch_*
-
