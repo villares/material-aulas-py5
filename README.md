@@ -13,3 +13,5 @@ Recording steps taken so far (unfinished, I might take a wrong turn):
 - Reading https://jupyterbook.org/start/publish.html
    - installed `ghp-import`
    - created a `gh-pages` branch in this repo
+   - tried the `ghp-import -n -p -f _build/html` and **FAILED, because I can no longer auth gh with passwoed**
+**- Reading all over again about GitHub token authentication and some sort of GitHub CLI thing that has "web login"**
