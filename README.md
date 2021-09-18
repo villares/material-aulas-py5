@@ -18,3 +18,7 @@ Recording steps taken so far (unfinished, I might take a wrong turn):
       ~~- Maybe [creating-a-personal-access-token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) *Couldn't find out how to use the token after creating it :(*~~
       - Used https://cli.github.com/manual/gh_auth_login that needs https://github.com/cli/cli#installation
    - tried again the `ghp-import -n -p -f _build/html` and **did not fail, but I can't see the site :(**
+   - **YOU FORGOT TO READ ABOUT jupyter-book build**
+   - so, tried `jupyter-book build /`
+      - TOC is wrong `jupyter-book toc from-project /`
+   
