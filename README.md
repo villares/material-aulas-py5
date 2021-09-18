@@ -20,5 +20,6 @@ Recording steps taken so far (unfinished, I might take a wrong turn):
    - tried again the `ghp-import -n -p -f _build/html` and **did not fail, but I can't see the site :(**
    - **YOU FORGOT TO READ ABOUT jupyter-book build**
    - so, tried `jupyter-book build /`
-      - TOC is wrong `jupyter-book toc from-project /`
+      - TOC is wrong `jupyter-book toc from-project /` (should learn how to pipe this to the propper file!)
+   - tried again the `ghp-import -n -p -f _build/html`, something was generated, but no site yet...
    
