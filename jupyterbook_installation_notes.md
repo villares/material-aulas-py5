@@ -23,5 +23,5 @@ Goal: Make class materials that can profit from Thebe/MyBinder.org execution.
 
 TO DO:
    - [ ] Study how to use a makefile & pre- and post-processing scripts
-   - [ ] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
+   - [X] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
    
