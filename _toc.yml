@@ -1,14 +1,6 @@
 root: index
 entries:
 - file: _README
-- file: content/about
-  entries:
-  - file: content/community
-  - file: content/help
-  - file: content/install
-  - file: content/osx_users
-  - file: content/py5_design
-  - file: content/py5_internals
 - file: how_tos/import_processing_libraries
   entries:
   - file: how_tos/use_a_webcam_with_opencv
