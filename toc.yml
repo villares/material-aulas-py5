@@ -1,0 +1,5 @@
+root: index
+entries:
+- file: jupyterbook_installation_notes
+- file: tutorials/rotating_cube
+
