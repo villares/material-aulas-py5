@@ -22,6 +22,6 @@ Goal: Make class materials that can profit from Thebe/MyBinder.org execution.
    - Use `ghp-import -n -p -f _build/html` command to rebuild the publishing `gh-pages` branch, needs `push` afterwards!
 
 TO DO:
-   - Study how to use a makefile & pre- and post-processing scripts
-   - I might want to install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
+   - [ ] Study how to use a makefile & pre- and post-processing scripts
+   - [ ] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
    
