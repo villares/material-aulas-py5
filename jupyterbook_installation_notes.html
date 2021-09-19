@@ -53,6 +53,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="py5bot" href="tutorials/introduction_to_py5bot.html" />
+    <link rel="prev" title="Introdução à programação em um contexto visual: com Python e Processing, via py5" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -85,10 +87,35 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="index.html">
-   Introdução à programação em um contexto visual
+   Introdução à programação em um contexto visual: com Python e Processing, via py5
   </a>
  </li>
 </ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   how to set up this repo
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="tutorials/introduction_to_py5bot.html">
+   py5bot
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="tutorials/rotating_cube.html">
+     Rotating Cube
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -201,9 +228,9 @@
 <p>2021-09-18 First attempt, lots of help fro &#64;hx2A, first jupyter book working page!
 2021-09-19 Cleaning up the steps needed (removed some wrong turns taken)</p>
 <ul class="simple">
-<li><p>Cloned requirements and settings froms <a class="reference external" href="https://py5.ixora.io">https://py5.ixora.io</a> Jupyter Book docs</p>
+<li><p>Cloned requirements and settings from <a class="reference external" href="https://py5.ixora.io">https://py5.ixora.io</a> Jupyter Book docs</p>
 <ul>
-<li><p>This repo is kind of a hollowed out clone of the <code class="docutils literal notranslate"><span class="pre">py5</span></code> docs</p></li>
+<li><p>This repo starts as a hollowed out clone of the <code class="docutils literal notranslate"><span class="pre">py5</span></code> doc</p></li>
 </ul>
 </li>
 <li><p>Reading <a class="reference external" href="https://jupyterbook.org/start/overview.html">https://jupyterbook.org/start/overview.html</a></p>
@@ -213,15 +240,16 @@
 <li><p>Created a <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch in this repo</p></li>
 <li><p>Do not change the <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code> to point to the gh-pages branch, keep it looking for <code class="docutils literal notranslate"><span class="pre">main</span></code> (where the binder folder is)</p></li>
 <li><p>For GitHub token authentication, now using <a class="reference external" href="https://cli.github.com/manual/gh_auth_login">GitHub CLI auth login</a>, to install follow <a class="reference external" href="https://github.com/cli/cli#installation">https://github.com/cli/cli#installation</a></p></li>
-<li><p>Used <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span> <span class="pre">/</span></code></p>
-<ul>
-<li><p>TOC still confusing, trying <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">toc</span> <span class="pre">from-project</span> <span class="pre">/</span></code> (should learn how to pipe this to the propper file!)</p></li>
+<li><p>Rebuild TOC with <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">toc</span> <span class="pre">from-project</span> <span class="pre">/</span> <span class="pre">&gt;</span> <span class="pre">_toc.yml</span></code></p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">jupyter-book</span> <span class="pre">build</span> <span class="pre">/</span></code></p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">_build/html</span></code> command to rebuild the publishing <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch, needs <code class="docutils literal notranslate"><span class="pre">push</span></code> afterwards!</p></li>
 </ul>
 </li>
-<li><p>Use <code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">_build/html</span></code> command to rebuild the publishing <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch, needs <code class="docutils literal notranslate"><span class="pre">push</span></code> afterwards I think.</p></li>
-<li><p>Might need to install additional <code class="docutils literal notranslate"><span class="pre">py5bot</span></code> kernel to use “static mode” examples. <a class="reference external" href="https://py5.ixora.io/content/install.html#jupyter-notebook-kernels">Instructions here</a>.</p></li>
 </ul>
-</li>
+<p>TO DO:</p>
+<ul class="simple">
+<li><p>[ ] Study how to use a makefile &amp; pre- and post-processing scripts</p></li>
+<li><p>[X] install additional <code class="docutils literal notranslate"><span class="pre">py5bot</span></code> kernel to use “static mode” examples. <a class="reference external" href="https://py5.ixora.io/content/install.html#jupyter-notebook-kernels">Instructions here</a>.</p></li>
 </ul>
 </div>
 </div>
@@ -255,6 +283,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="index.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Introdução à programação em um contexto visual: com Python e Processing, via py5</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="tutorials/introduction_to_py5bot.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">py5bot</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
