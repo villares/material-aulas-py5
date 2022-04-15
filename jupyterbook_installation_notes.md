@@ -4,6 +4,8 @@ Context: This is an attempt at making a jupyter{book} version of my `material-au
 
 Goal: Make class materials that can profit from Thebe/MyBinder.org execution.
 
+Work in progress. Published as proof of concept here: https://abav.lugaralgum.com/material-aulas-py5/
+
 #### Recording steps taken so far (work in progress)
 
 - 2021-09-18 First attempt, lots of help from @hx2A, first jupyter book working page!
