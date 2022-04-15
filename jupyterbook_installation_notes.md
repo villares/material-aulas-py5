@@ -26,6 +26,7 @@ Work in progress. Published as proof of concept here: https://abav.lugaralgum.co
    - Use `ghp-import -n -p -f _build/html` command to rebuild the publishing `gh-pages` branch, needs `push` afterwards!
 
 TO DO:
+   - [ ] Work out why the images are broken :(
    - [ ] Study how to use a makefile & pre- and post-processing scripts
    - [X] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
    
