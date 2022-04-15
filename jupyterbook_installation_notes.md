@@ -6,8 +6,8 @@ Goal: Make class materials that can profit from Thebe/MyBinder.org execution.
 
 #### Recording steps taken so far (work in progress)
 
-2021-09-18 First attempt, lots of help fro @hx2A, first jupyter book working page!
-2021-09-19 Cleaning up the steps needed (removed some wrong turns taken)
+2021-09-18 First attempt, lots of help from @hx2A, first jupyter book working page!
+2021-09-19 Cleaning up the steps needed (removing some wrong turns taken)
 
 - Cloned requirements and settings from https://py5.ixora.io Jupyter Book docs
    - This repo starts as a hollowed out clone of the `py5` doc
