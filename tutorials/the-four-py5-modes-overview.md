@@ -3,7 +3,7 @@
 
 ## A brief overview
 
-The **py5** library is usually used in these 4 ways, or coding strategies and contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
+The **py5** library can be used in these 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
 
 > [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html)
 
