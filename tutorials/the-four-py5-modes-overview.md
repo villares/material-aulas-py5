@@ -9,7 +9,7 @@ The **py5** library is usually used in these 4 ways, or coding strategies and co
 
 ### Module mode
 
-This might look familiar to some Pyhon programmers. You import the library at the top, define some functions py5 will call for you, like, `setup()`, `draw()` and maybe some other event functions. In the end you call `py5.run_sketch()`.
+This might look familiar to some Python programmers. You import the library at the top, define some functions py5 will call for you, like, `setup()`, `draw()` and maybe some other event functions. In the end you call `py5.run_sketch()`.
 
 The following example will create a small Sketch that draws rectangles at the current mouse position:
 
