@@ -68,7 +68,7 @@ for _ in range(20):
 
 ![image](https://user-images.githubusercontent.com/3694604/201693378-ccce119a-29ca-4569-bebc-1a3ec2f4c4da.png)
 
-To use static mode in Jupyter Lab install the **py5bot kernel** as described on the [Install py5 page](http://py5coding.org/content/install.html), then start Jupyter Lab using `$ jupyter lab`. You will see *py5bot* presented as an option in the Launcher. Click on it and put the code in a notebook cell.
+To use static mode in Jupyter Lab install the *py5bot Kernel* as described on the [Install py5 page](http://py5coding.org/content/install.html), then start Jupyter Lab using `$ jupyter lab`. You will see *py5bot* presented as an option in the Launcher. Click on it and put the code in a notebook cell.
 
 You can also use the `run_sketch` tool or the Thonny IDE plug-in as described for *imported mode*.
 
