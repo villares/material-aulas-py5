@@ -36,7 +36,7 @@ py5.run_sketch()
 
 ### Imported mode
 
-Originally designed to be used by beginner programmers, *imported mode* is analogous to the way code is written by users in the Processing IDE. You don't need to type `.py5` everywhere.
+Originally designed to be used by beginner programmers, *imported mode* is analogous to the way code is written by users in the Processing IDE. You don't need to type `py5.` everywhere.
 
 To use this mode you'll need a *py5 Jupyter Notebook Kernel* ([install instructions here](http://py5coding.org/content/install.html)) or, if using other code editors, you'll need to execute your code from the `run_sketch` command line tool (`$ run_sketch your_sketch.py`).
 
