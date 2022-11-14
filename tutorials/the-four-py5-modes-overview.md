@@ -5,11 +5,11 @@
 
 The **py5** library can be used in these 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
 
-> [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html)
+> ⚠️ **If on a Mac:** [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html)
 
 ### Module mode
 
-This might look familiar to some Python programmers. You import the library at the top, define some functions py5 will call for you, like, `setup()`, `draw()` and maybe some other event functions. In the end you call `py5.run_sketch()`.
+This might look familiar to some Python programmers. You import the library at the top, define snome functions py5 will call for you, like, `setup()`, `draw()` and maybe some other event functions. In the end you call `py5.run_sketch()`.
 
 The following example will create a small Sketch that draws rectangles at the current mouse position:
 
@@ -27,9 +27,9 @@ py5.run_sketch()
 ```
 ![image](https://user-images.githubusercontent.com/3694604/201694987-f78a4856-1329-4693-a312-4ab3402fe689.png)
 
-> ⚠️ **Important:** Do not use `from py5 import *`, it will break many things! If you'd like to avoid the `py5.`prefixes, consider using the *imported mode*.
+> ⚠️ **Caution:** Do not use `from py5 import *`, it will break many things! If you'd like to avoid the `py5.`prefixes, consider using the *imported mode*.
 
-> ℹ️ **Note:** If you have not defined a function called `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you under the hood, according to some special rules, like `size()` needing to be in `settings()`, a Processing requirement.
+> ℹ️ **Note:** If you have not defined `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you under the hood, according to some special rules, like `size()` needing to be in `settings()`, a Processing requirement.
 
 ### Imported mode
 
