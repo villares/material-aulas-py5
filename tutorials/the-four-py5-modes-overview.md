@@ -42,7 +42,7 @@ To use this mode you'll need a *py5 Jupyter Notebook Kernel* ([install instructi
 
 Another option is to have *Thonny IDE* with the [thonny-py5mode](https://github.com/tabreturn/thonny-py5mode/) plug-in installed, a *py5* menu will appear with an option called *Imported mode for py5*, when it is checked, Thonny will call the `run_sketch` tool for you.
 
-This is the previous example writen for *Imported mode*:
+This is the previous example written for *imported mode*:
 
 ```python
 def setup():
