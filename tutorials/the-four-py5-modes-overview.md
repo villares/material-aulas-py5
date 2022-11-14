@@ -53,7 +53,7 @@ def draw():
 run_sketch()
 ```
 
-### Static Mode
+### Static mode
 
 *Static mode* lets you create static images using functionless code. It is designed for beginner programmers who are making their first steps into Python programming.
 
@@ -72,9 +72,9 @@ To use static mode in Jupyter Lab install the `py5bot` kernel as described on th
 
 You can also use the `run_sketch` tool or the Thonny IDE plug-in as described for *Imported mode*.
 
-### Class Mode
+### Class mode
 
-For more advanced users who may want to run multiple sketches at the same time, Class mode invites you to create a class with a `settings` method, now required, `setup`,`draw` and other desired methods. 
+For more advanced users who may want to run multiple sketches at the same time, *class mode* invites you to create a class with a `settings` method, now required, `setup`,`draw` and other desired methods. 
 
 The first *module mode* example coded for *class mode* would be like this:
 
