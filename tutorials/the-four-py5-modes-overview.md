@@ -3,9 +3,10 @@
 
 ## A brief overview
 
-The **py5** library can be used in these 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
+The **py5** library can be used in these 4 ways, coding styles or contexts, we call "modes".<br>More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
 
-> ⚠️ **If on a Mac:** [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html)
+> ⚠️ **If on a Mac:**<br>
+> You should read [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html).
 
 ### Module mode
 
@@ -27,9 +28,11 @@ py5.run_sketch()
 ```
 ![image](https://user-images.githubusercontent.com/3694604/201694987-f78a4856-1329-4693-a312-4ab3402fe689.png)
 
-> ⚠️ **Caution:** Do not use `from py5 import *`, it will break many things! If you'd like to avoid the `py5.`prefixes, consider using the *imported mode*.
+> ⚠️ **Caution:**<br>
+> Do not use `from py5 import *`, it will break many things! If you'd like to avoid the `py5.`prefixes, consider using the *imported mode*.
 
-> ℹ️ **Note:** If you have not defined `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you under the hood, according to some special rules, like `size()` needing to be in `settings()`, a Processing requirement.
+> ℹ️ **Note:**<br>
+> If you have not defined `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you under the hood, according to some special rules, like `size()` needing to be in `settings()`, a Processing requirement.
 
 ### Imported mode
 
@@ -37,7 +40,7 @@ Originally designed to be used by beginner programmers, *imported mode* is analo
 
 To use this mode you'll need a *py5 Jupyter Notebook Kernel* ([install instructions here](http://py5coding.org/content/install.html)) or, if using other code editors, you'll need to execute your code from the `run_sketch` command line tool (`$ run_sketch your_sketch.py`).
 
-Another option is to have *Thonny IDE* with the [thonny-py5mode](https://github.com/tabreturn/thonny-py5mode/) plug-in installed, a *py5* menu will appear with an option called *Imported mode for py5*, when it is checked, Thonny will call the `run_sketch` sketch runner tool for you.
+Another option is to have *Thonny IDE* with the [thonny-py5mode](https://github.com/tabreturn/thonny-py5mode/) plug-in installed, a *py5* menu will appear with an option called *Imported mode for py5*, when it is checked, Thonny will call the `run_sketch` tool for you.
 
 This is the previous example writen for *Imported mode*:
 
