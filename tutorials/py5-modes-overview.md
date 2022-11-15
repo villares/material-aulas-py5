@@ -53,6 +53,8 @@ def draw():
 run_sketch()
 ```
 
+When using the `run_sketch` tool or the *thonny-py5mode* plug-in, you don't need `run_sketch()` at the end of your *imported mode* code.
+
 ### Static mode
 
 *Static mode* lets you create static images using functionless code. It is designed for beginner programmers who are making their first steps into Python programming.
