@@ -28,8 +28,8 @@ py5.run_sketch()
 > ⚠️ **Caution:**<br>
 > Do not use `from py5 import *`, it will break many things! If you'd like to avoid the `py5.`prefixes, consider using the *imported mode*.
 
-> ℹ️ **Note:**<br>
-> If you have not defined `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you under the hood, according to some special rules, like `size()` needing to be in `settings()`, a Processing requirement.
+> ℹ️ **Internal detail:**<br>
+> If you have not defined `settings()` (optional in this mode), the `setup()` function will be split into `setup()` and `settings()` for you automatically under the hood, according to some special rules, because the Processing core needs `size()` to be in a `settings()` function that runs before `setup()`. But you don't need to worry about that!
 
 ### Imported mode
 
