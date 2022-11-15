@@ -1,9 +1,6 @@
+# A brief overview of py5 modes
 
-# The Four py5 Modes
-
-## A brief overview
-
-The **py5** library, for creative coding in Python, using the Processing graphics infrastructure, can be used in these 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
+The **py5** library, for creative coding in Python using the Processing graphics infrastructure, at this time can be used in 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
 
 > ⚠️ **If on a Mac:**<br>
 > You should read [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html).
