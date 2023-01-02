@@ -13,7 +13,7 @@ Work in progress. Published as proof of concept here: https://abav.lugaralgum.co
 
 ##### Steps
 
-- Cloned requirements and settings from https://py5.ixora.io Jupyter Book docs
+- Cloned requirements and settings from https://py5coding.org Jupyter Book docs
    - This repo starts as a hollowed out clone of the `py5` doc
 - Reading https://jupyterbook.org/start/overview.html
    - Installed `jupyter-book` in my `pycoding` conda env that I also use to run `py5`
@@ -28,5 +28,5 @@ Work in progress. Published as proof of concept here: https://abav.lugaralgum.co
 TO DO:
    - [ ] Work out why the images are broken :(
    - [ ] Study how to use a makefile & pre- and post-processing scripts
-   - [X] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5.ixora.io/content/install.html#jupyter-notebook-kernels).
+   - [X] install additional `py5bot` kernel to use "static mode" examples. [Instructions here](https://py5coding.org/content/install.html#jupyter-notebook-kernels).
    

@@ -13,7 +13,7 @@ kernelspec:
 ---
 
 # Introdução à programação em um contexto visual
-> com Python e Processing, usando a biblioteca [py5](py5.ixora.io)
+> com Python e Processing, usando a biblioteca [py5](https://py5coding.org)
 
 ```{code-cell} ipython3
 def setup():
