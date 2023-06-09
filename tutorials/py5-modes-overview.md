@@ -1,6 +1,6 @@
 # A brief overview of py5 modes
 
-The **py5** library, for creative coding in Python using the Processing graphics infrastructure, at this time can be used in 4 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Four py5 Modes](http://py5coding.org/content/py5_modes.html)
+The **py5** library, for creative coding in Python using the Processing graphics infrastructure, at this time can be used in 5 ways, coding styles or contexts, we call "modes". More details can be found at [py5coding.org - The Five py5 Modes](http://py5coding.org/content/py5_modes.html)
 
 > ⚠️ **If on a Mac:**<br>
 > You should read [Special Notes for OSX Users](http://py5coding.org/content/osx_users.html).
@@ -99,6 +99,9 @@ class TestSketch(Sketch):
 test = TestSketch()
 test.run_sketch()
 ```
+### Processing mode
+
+Another advanced feature, [Processing Mode](https://py5coding.org/content/processing_mode.html) allows users of Processing Java to use py5 as bridge to the Python ecossystem. In a Java sketch they can call Python functions using a `callPython()` method.
 
 ## Further reading
 
